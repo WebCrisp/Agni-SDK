@@ -16,9 +16,6 @@ export const secretCreateProjectCopy = async ({ user_email, project_name , descr
                 "name": project_name,
                 "description":description,
             }
-    }).then(res=>res).catch(err => "Internal Server Error while deleting");
-       
+    }).then(res=>res).catch(err => "Internal Server Error while deleting");     
     }
-   
-   
 };
