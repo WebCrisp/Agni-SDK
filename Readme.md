@@ -30,7 +30,7 @@ const readResponse = await agni.read('users', 'user_id');
 const updateResponse = await agni.update('users', 'user_id', { name: 'Jane Doe', age: 32 });
 const deleteResponse = await agni.delete('users', 'user_id');
 ```
-```markdown
+
 ## API Documentation
 
 For detailed information on the Agni SDK API and its available methods, refer to the [API Documentation](https://your-backend-url/docs).
