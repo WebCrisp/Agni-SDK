@@ -25,3 +25,7 @@ config();
 
 // console.log(await new_request({project_id:"026e2860-c726-11ed-a0b4-8030493e60c6",api_key:"2bf30adb-00f2-432a-a31d-6a554444c7bf"}));
 // console.log(await new_request_copy({project_id:"026e2860-c726-11ed-a0b4-8030493e60c6",api_key:"2bf30adb-00f2-432a-a31d-6a554444c7bf",name:"Haku00",user:"root@gmail.com",description:"This is desc new"}));
+
+
+//database
+console.log(await add_document({ collection_name:"Haku00223",api_key:"2bf30adb-00f2-432a-a31d-6a554444c7bf" ,document_data:"{title: 'Fifth Blog I m adding ', author: 'jatin', content: 'short-blog'}",project_id:'026e2860-c726-11ed-a0b4-8030493e60c6'}));
