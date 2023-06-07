@@ -28,4 +28,29 @@ config();
 
 
 //database
-console.log(await add_document({ collection_name:"Haku00223",api_key:"2bf30adb-00f2-432a-a31d-6a554444c7bf" ,document_data:"{title: 'Fifth Blog I m adding ', author: 'jatin', content: 'short-blog'}",project_id:'026e2860-c726-11ed-a0b4-8030493e60c6'}));
+
+// console.log(await query_document({ collection_name:"Haku00222",api_key:"2bf30adb-00f2-432a-a31d-6a554444c7bf"
+//                         ,document_data:`{"title": "Fifth Blog I'm adding", "author": "jatin", "content": "short-blog"}`,
+//                         project_id:'026e2860-c726-11ed-a0b4-8030493e60c6'}));
+
+
+// console.log(await create_sub_collection({ collection_name:"Haku00222",api_key:"2bf30adb-00f2-432a-a31d-6a554444c7bf",
+//                                        sub_collection_name:"J sub collection",document_data:`{"title": "First Blog"}`,
+//                                        document_id:'hahaha123'}));         
+
+
+// console.log(await add_document({ collection_name:"Haku00225",api_key:"2bf30adb-00f2-432a-a31d-6a554444c7bf"
+//         ,document_data:`{"title": "Fifth Blog I'm adding", "author": "jatin", "content": "short-blog"}`,
+//         project_id:'026e2860-c726-11ed-a0b4-8030493e60c6'}));
+
+
+// console.log(await delete_document({ collection_name:"blog-collection",
+//                                 api_key:"0db8b345-3b45-42dd-a4e9-ff43afbda07b",
+//                                 document_data:`{"title": "Fifth Blog I'm adding", "author": "jatin", "content": "short-blog"}`,
+//                                 project_id:'e4eeea0c-ab72-11ed-b531-e9b49344f47a'
+//                                }))
+
+
+console.log(await update_document({ collection_name:"Haku00222",api_key:"2bf30adb-00f2-432a-a31d-6a554444c7bf"
+                        ,document_data:`{"title": "Fifth Blog I'm adding", "author": "jatin", "content": "short-blog"}`,
+                        project_id:'026e2860-c726-11ed-a0b4-8030493e60c6'}));
